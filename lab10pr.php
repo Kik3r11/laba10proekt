@@ -7,8 +7,7 @@ if(isset($_POST['txt']))
 	$value_c = (int) $_POST['C'];
 	class Laba
 	{
-		public $value_x, $value_a, $value_b, $value_c;
-		
+		public $value_x, $value_a, $value_b, $value_c;		
 		function __construct($value_x, $value_a, $value_b, $value_c)
 		{
 			$this->value_x = $value_x;
